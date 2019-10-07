@@ -20,14 +20,11 @@ package org.japo.java.main;
  * @author Sebastian Najarro Heredia - sebastian.najarro.alum@iescamp.es
  */
 public class Main {
+
     public static void main(String[] args) {
-        
-        final String HORA="Hora de entrada ....: %02d:%02d";
-        
-        System.out.printf (HORA + "%n",8,6);
-       
-        
+
+        System.out.printf("Hora de entrada ....: %02d:%02d%n", 8, 6);
+
     }
-   
-    
+
 }
